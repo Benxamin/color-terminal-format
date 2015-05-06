@@ -1,7 +1,7 @@
 module.exports = function() {
-  return function(hex, str) {
+  return function(val, str) {
     if (!str) return;
-    hex = hex || 37; // default FgWhite.
-    return "\x1b["+ hex +"m"+ str +"\x1b[0m";
+    val = val || 37; // default FgWhite.
+    return "\x1b["+ val +"m"+ str +"\x1b[0m";
   };
 };
