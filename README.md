@@ -48,6 +48,8 @@ console.log(cf(41, "Some alert!");
 | FgMagenta | 35 |
 | FgCyan | 36 |
 | FgWhite | 37 |
+| FgDkGray | 38 |
+| FgLtGray | 39 |
 
 | Background Color | Value |
 | :--------------- | :---: |
