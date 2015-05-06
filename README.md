@@ -1,6 +1,32 @@
 # color-terminal-format
 
-### Values for Terminal color escape sequences
+## Examples
+
+### Ex. In a test
+```js
+var cf = require('color-terminal-format');
+var now = new Date();
+describe("\n"+ cf(34, now) +"\nMy App", function() {
+  it('should do something', function(){
+    ...
+  });
+});
+
+// outputs blue date above your latest test run.
+```
+
+### Ex. In your app
+```js
+var cf = require('color-terminal-format');
+...
+console.log(cf(41, "Some alert!");
+
+// outputs red "Some alert!".
+```
+
+
+
+## Values for Terminal color escape sequences
 
 | Style | Value |
 | :------ | :---: |
