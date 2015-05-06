@@ -1,0 +1,13 @@
+{
+  "name": "color-terminal-format",
+  "repo": "benxamin/color-terminal-format",
+  "description": "Wrap string in color escape sequences for terminal output.",
+  "version": "0.1.0",
+  "keywords": ["color", "console", "dir", "error", "format", "log", "terminal", "output"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
